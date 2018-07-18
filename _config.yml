@@ -10,7 +10,8 @@ url: "" # the base hostname & protocol for your site
 
 # User setting
 owner:
-email: womentechmakerszgz@gmail.com
+#email: womentechmakerszgz@gmail.com
+email: wtmz@mullerestech.es
 facebook_username:
 twitter_username: WTMZaragoza
 github_username: MulleresTechZgz
@@ -41,22 +42,23 @@ intro_event:
 event_infos:
   - title: ¿Qué es Women Techmakers?
     content: Se trata de una iniciativa promovida a nivel global por Google para <strong>visibilizar a las mujeres</strong> en el ámbito de la tecnología.<br/><br/>Women Techmakers quiere crear una comunidad con visibilidad, generando recursos que impulsen la innovación y la participación de las mujeres en este campo.<br/>
-    image: img/services/speakers.jpg
+    image: img/wtmz17/speakers-organization.jpg
   - title: ¿A quién está dirigido el evento?
     content: Se trata de un <strong>evento abierto</strong> a cualquier persona interesada en el mundo de la tecnología.<br/><br/>Queremos abarcar diferentes temas como <strong>nuevas tecnologías, agile, comunicación, desarrollo web, UX</strong> o cualquier tema interesante del sector.<br/><br/>La asistencia al evento está abierta tanto a hombres como a mujeres, pero las ponentes serán únicamente mujeres, ya que uno de los objetivos es darles visibilidad así como ofrecer ayuda y colaboración.
-    image: img/services/audience.jpg
-  #- title: ¿Dónde se ha celebrado hasta ahora?
-  #  content: <ul class="wtm-inline-list"> <li><i class="fa fa-map-marker"></i> Barcelona</li> <li><i class="fa fa-map-marker"></i> Logroño</li> <li><i class="fa fa-map-marker"></i> Madrid</li> <li><i class="fa fa-map-marker"></i> Málaga</li> <li><i class="fa fa-map-marker"></i> Menorca</li> <li><i class="fa fa-map-marker"></i> Reus</li> <li><i class="fa fa-map-marker"></i> Salamanca</li> <li><i class="fa fa-map-marker"></i> Tenerife</li> <li><i class="fa fa-map-marker"></i> Valencia</li></ul>
-  #  image: img/services/girs_at_wtm_mad.jpg
-  #- title: Algunas cifras
-  #  content: <span class="wtm-highlight">9</span> ponentes en Barcelona<br/> <span class="wtm-highlight">10</span> ponentes en Menorca<br/> <span class="wtm-highlight">6</span> ponentes en Tarragona<br/> <span class="wtm-highlight">3</span> ponentes en Salamanca<br/> <span class="wtm-highlight">13</span> ponentes en Valencia<br/> <span class="wtm-highlight">33</span> ponentes en Madrid
-  #  image: img/services/chatting.jpg
+    image: img/wtmz17/audience.jpg
+  ##- title: ¿Dónde se ha celebrado hasta ahora?
+  ##  content: <ul class="wtm-inline-list"> <li><i class="fa fa-map-marker"></i> Barcelona</li> <li><i class="fa fa-map-marker"></i> Logroño</li> <li><i class="fa fa-map-marker"></i> Madrid</li> <li><i class="fa fa-map-marker"></i> Málaga</li> <li><i class="fa fa-map-marker"></i> Menorca</li> <li><i class="fa fa-map-marker"></i> Reus</li> <li><i class="fa fa-map-marker"></i> Salamanca</li> <li><i class="fa fa-map-marker"></i> Tenerife</li> <li><i class="fa fa-map-marker"></i> Valencia</li></ul>
+  ##  image: img/services/girs_at_wtm_mad.jpg
+  ##- title: Algunas cifras
+  ##  content: <span class="wtm-highlight">9</span> ponentes en Barcelona<br/> <span class="wtm-highlight">10</span> ponentes en Menorca<br/> <span class="wtm-highlight">6</span> ponentes en Tarragona<br/> <span class="wtm-highlight">3</span> ponentes en Salamanca<br/> <span class="wtm-highlight">13</span> ponentes en Valencia<br/> <span class="wtm-highlight">33</span> ponentes en Madrid
+  ##  image: img/services/chatting.jpg
   - title: ¿Dónde se ha celebrado hasta ahora?
-    content: <span class="wtm-highlight">9</span> ponentes en Barcelona<br/> <span class="wtm-highlight">10</span> ponentes en Menorca<br/> <span class="wtm-highlight">6</span> ponentes en Tarragona<br/> <span class="wtm-highlight">3</span> ponentes en Salamanca<br/> <span class="wtm-highlight">13</span> ponentes en Valencia<br/> <span class="wtm-highlight">33</span> ponentes en Madrid
+    content: En Barcelona con <span class="wtm-highlight">18</span> ponentes<br/>En Gijón <span class="wtm-highlight">12</span> ponentes<br/>En Jaén <span class="wtm-highlight">3</span> ponentes<br/>En Logroño <span class="wtm-highlight">5</span> ponentes<br/>En Madrid <span class="wtm-highlight">38</span> ponentes<br/>En Tenerife <span class="wtm-highlight">9</span> ponentes<br/>En Valencia <span class="wtm-highlight">16</span> ponentes<br/>En Vigo <span class="wtm-highlight">6</span> ponentes
     image: img/imgs_dossier/MapaSpainWTM.jpg
-  - title: WTM Zaragoza 2017
-    content: Consiguió <strong>más de 33 ponentes</strong>.<br/><br/>El 60% de las ponentes dieron una charla por primera vez.<br/><br/>Ampliaron el círculo de networking de muchas mujeres.<br/><br/>Ayudaron a las empresas a <strong>encontrar mujeres profesionales</strong> en el sector de la tecnología.<br/><br/>También nos dieron el empujón para que este año organicemos Women Techmakers Zaragoza.
-    image: img/services/organizersmad.jpg
+  - title: Cifras de WTM Zaragoza 2017
+    content: Más de 220 adultos y 30 niños asistentes<br/><br/>Repartidos en 2 tracks de charlas más 1 aula talleres<br/><br/>Más de un 70% de mujeres asistentes<br/><br/>96 propuestas recibidas en el Call for Papers<br/><br/>38 de las 96 pidieron el programa mentor<br/><br/>22 charlas impartidas<br/><br/>Las 100 primeras entradas se agotaron en 30 minutos<br/><br/>3º puesto en Trending Topic en España
+
+    image: img/wtmz17/organizers.jpg
 
 #List for organizers
 organizers:
