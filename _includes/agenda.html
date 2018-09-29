@@ -3,7 +3,7 @@
   <div class="container">
 
     <div class="row text-center">
-      <div class="col-lg-10 col-lg-offset-1">
+      <div class="col-lg-12">
         <h2>Agenda</h2>
         <hr class="small">
       </div>
@@ -11,14 +11,14 @@
 
     {% if site.talks_track_1 %}
     <div class="row text-center">
-      <div class="col-lg-10 col-lg-offset-1">
+      <div class="col-lg-12">
         <h3 class="ribbon ribbon-lg">PONENCIAS</h3>
       </div>
     </div>
     <div class="row text-center sponsor-md">
-      <div class="col-lg-10 col-lg-offset-1">
+      <div class="col-lg-12">
         <div class="table-wrapper">
-            <table class="col-lg-12 table table-nonfluid">
+            <table class="col-lg-12 table">
               <tr>
                 <th class="col-lg-2"></th>
                 <th class="col-lg-5 text-center">TRACK 1 - Auditorio</th>
@@ -35,6 +35,7 @@
 
                 <td class="small" colspan="2">{{ talk_track_1.name }}</td>
 
+
                 {% else %}
 
                   {% assign talk_track_1_name = talk_track_1.name | strip_newlines %}
@@ -46,14 +47,25 @@
                   {% assign talk_track_1_youtube = talk_track_1.url_youtube | strip_newlines %}
                   {% assign talk_track_2_youtube = talk_track_2.url_youtube | strip_newlines %}
 
+                  {% assign talk_track_1_rowspan = talk_track_1.rowspan | strip_newlines %}
+                  {% assign talk_track_2_rowspan = talk_track_2.rowspan | strip_newlines %}
+
                   {% if talk_track_1_name == "" %}
 
                 <td class="empty"></td>
 
-                  {% else %}
-
+                  {% else%}
+                    {% if talk_track_1_rowspan != '0' %}
+                      {% if talk_track_1_rowspan == '2' %}
+                <td rowspan="2">
+                      {% else %}
                 <td>
-                  <a href="#" data-toggle="modal" data-target="#talk-{{ forloop.index0 }}-{{ talk_track_1.track }}">{{ talk_track_1.name }}</a>
+                      {% endif %}
+                  <a href="#" data-toggle="modal" data-target="#talk-{{ forloop.index0 }}-{{ talk_track_1.track }}">
+                    {{ talk_track_1.name }}
+                    <hr class="small" style="margin-top: 5px;margin-bottom: 5px;border-top: 1px solid #d2d2d2;"/>
+                    <font style="font-size: 13px;">{{ talk_track_1.speaker }}</font>
+                  </a>
                   <!-- Modal -->
                   <div class="modal fade" id="talk-{{ forloop.index0 }}-{{ talk_track_1.track }}" role="dialog">
                     <div class="modal-dialog">
@@ -88,6 +100,7 @@
                 </td>
 
                   {% endif %}
+                  {% endif %}
 
                   {% if talk_track_2_name == "" %}
 
@@ -96,7 +109,11 @@
                   {% else %}
 
                 <td>
-                  <a href="#" data-toggle="modal" data-target="#talk-{{ forloop.index0 }}-{{ talk_track_2.track }}">{{ talk_track_2.name }}</a>
+                  <a href="#" data-toggle="modal" data-target="#talk-{{ forloop.index0 }}-{{ talk_track_2.track }}">
+                    {{ talk_track_2.name }}
+                    <hr class="small" style="margin-top: 5px;margin-bottom: 5px;border-top: 1px solid #d2d2d2;"/>
+                    <font style="font-size: 13px;">{{ talk_track_2.speaker }}</font>
+                  </a>
                   <!-- Modal -->
                   <div class="modal fade" id="talk-{{ forloop.index0 }}-{{ talk_track_2.track }}" role="dialog">
                     <div class="modal-dialog">
@@ -143,18 +160,18 @@
 
    {% if site.workshops_track_1 %}
     <div class="row text-center">
-      <div class="col-lg-10 col-lg-offset-1">
+      <div class="col-lg-12">
         <h3 class="ribbon ribbon-lg">TALLERES</h3>
       </div>
     </div>
     <div class="row text-center sponsor-md">
-      <div class="col-lg-10 col-lg-offset-1">
+      <div class="col-lg-12">
           <div class="table-wrapper">
-              <table class="col-lg-12 table table-nonfluid">
+              <table class="col-lg-12 table">
                   <tr>
                     <th class="col-lg-2"></th>
-                    <th class="col-lg-5 text-center">AULA 3</th>
-                    <th class="col-lg-5 text-center">AULA 2</th>
+                    <th class="col-lg-5 text-center">SALA PROGRAMACIÓN</th>
+                    <th class="col-lg-5 text-center">BOX</th>
 
                   </tr>
                   {% for workshop_track_1 in site.workshops_track_1 %}
@@ -174,6 +191,8 @@
 
                       {% assign workshop_1_name = workshop_track_1.name | strip_newlines %}
                       {% assign workshop_2_name = workshop_track_2.name | strip_newlines %}
+                      {% assign workshop_1_descrip = workshop_track_1.descrip | strip_newlines %}
+                      {% assign workshop_2_descrip = workshop_track_2.descrip | strip_newlines %}
 
                       {% if workshop_1_name == "" %}
 
@@ -182,8 +201,8 @@
                       {% else %}
 
                     <td rowspan="{{ workshop_track_1.duration }}">
-                    <a href="#" data-toggle="modal" data-target="#workshop-{{ forloop.index0 }}">{{ workshop_track_1.name }}</a>
-                    <div class="modal fade" id="workshop-{{ forloop.index0 }}" role="dialog">
+                    <a href="#" data-toggle="modal" data-target="#workshop-1-{{ forloop.index0 }}">{{ workshop_track_1.name }}</a>
+                    <div class="modal fade" id="workshop-1-{{ forloop.index0 }}" role="dialog">
                         <div class="modal-dialog">
 
                           <!-- Modal content-->
@@ -193,7 +212,11 @@
                               <h4 class="modal-title"><strong>{{ workshop_track_1.name }}</strong></h4>
                             </div>
                             <div class="modal-body">
+                              {% if workshop_1_descrip != ""  %}
                               <p>{{ workshop_track_1.descrip }}</p>
+                              {% else %}
+                              <p>Más información próximamente</p>
+                              {% endif %}
                               <hr class="small"/>
                               <p><strong>{{ workshop_track_1.speaker }}</strong></p>
                               <!--<hr class="small"/>
@@ -220,8 +243,8 @@
                         {% else %}
 
                       <td rowspan="{{ workshop_track_2.duration }}">
-                      <a href="#" data-toggle="modal" data-target="#workshop-{{ forloop.index0 }}">{{ workshop_track_2.name }}</a>
-                      <div class="modal fade" id="workshop-{{ forloop.index0 }}" role="dialog">
+                      <a href="#" data-toggle="modal" data-target="#workshop-2-{{ forloop.index0 }}">{{ workshop_track_2.name }}</a>
+                      <div class="modal fade" id="workshop-2-{{ forloop.index0 }}" role="dialog">
                           <div class="modal-dialog">
 
                             <!-- Modal content-->
@@ -231,7 +254,11 @@
                                 <h4 class="modal-title"><strong>{{ workshop_track_2.name }}</strong></h4>
                               </div>
                               <div class="modal-body">
-                                <p>{{ workshop_track_2.descrip }}</p>
+                                {% if workshop_2_descrip != ""  %}
+                              <p>{{ workshop_track_2.descrip }}</p>
+                              {% else %}
+                              <p>Más información próximamente</p>
+                              {% endif %}
                                 <hr class="small"/>
                                 <p><strong>{{ workshop_track_2.speaker }}</strong></p>
                                 <!--<hr class="small"/>
