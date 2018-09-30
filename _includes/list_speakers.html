@@ -29,7 +29,8 @@
                       <i class="fa fa-circle fa-stack-2x"></i>
 
                       {% if image_guest != ""  %}
-                      <img src="{{ image_guest }}_c.jpg" class="fa fa-stack-1x text-primary img-circle" onmouseover="this.src='{{ image_guest }}_g.jpg'" onmouseout="this.src='{{ image_guest }}_c.jpg'"/>
+                      <!--<img src="{{ image_guest }}_c.jpg" class="fa fa-stack-1x text-primary img-circle" onmouseover="this.src='{{ image_guest }}_g.jpg'" onmouseout="this.src='{{ image_guest }}_c.jpg'"/>-->
+                      <img src="{{ image_guest }}_v.jpg" onerror="this.src='img/ponentes/comodin_v.jpg'" class="fa fa-stack-1x text-primary img-circle"/>
                       {% elsif twitter_speaker != "" %}
                       <img src="https://avatars.io/twitter/{{ guest.twitter_account }}" class="fa fa-stack-1x text-primary img-circle"/>
                       {% else %}
@@ -60,7 +61,7 @@
                               <i class="fa fa-circle fa-stack-2x"></i>
 
                               {% if image_guest != ""  %}
-                              <img src="{{ image_guest }}_c.jpg" class="fa fa-stack-1x text-primary img-circle"/>
+                              <img src="{{ image_guest }}_v.jpg" onerror="this.src='img/ponentes/comodin_v.jpg'" class="fa fa-stack-1x text-primary img-circle"/>
                               {% elsif twitter_guest != "" %}
                               <img src="https://avatars.io/twitter/{{ guest.twitter_account }}" class="fa fa-stack-1x text-primary img-circle"/>
                               {% else %}
@@ -141,7 +142,8 @@
                       <i class="fa fa-circle fa-stack-2x"></i>
 
                       {% if image_speaker != ""  %}
-                      <img src="{{ image_speaker }}_c.jpg" class="fa fa-stack-1x text-primary img-circle"  onmouseover="this.src='{{ image_speaker }}_g.jpg'" onmouseout="this.src='{{ image_speaker }}_c.jpg'"/>
+                      <!--<img src="{{ image_speaker }}_c.jpg" class="fa fa-stack-1x text-primary img-circle"  onmouseover="this.src='{{ image_speaker }}_g.jpg'" onmouseout="this.src='{{ image_speaker }}_c.jpg'"/>-->
+                      <img src="{{ image_speaker }}_v.jpg" onerror="this.src='img/ponentes/comodin_v.jpg'" class="fa fa-stack-1x text-primary img-circle"/>
                       {% elsif twitter_speaker != "" %}
                       <img src="https://avatars.io/twitter/{{ speaker.twitter_account }}" class="fa fa-stack-1x text-primary img-circle"/>
                       {% else %}
@@ -192,7 +194,7 @@
                               <i class="fa fa-circle fa-stack-2x"></i>
 
                               {% if image_speaker != ""  %}
-                              <img src="{{ image_speaker }}_c.jpg" class="fa fa-stack-1x text-primary img-circle"/>
+                              <img src="{{ image_speaker }}_v.jpg" onerror="this.src='img/ponentes/comodin_v.jpg'" class="fa fa-stack-1x text-primary img-circle"/>
                               {% elsif twitter_speaker != "" %}
                               <img src="https://avatars.io/twitter/{{ speaker.twitter_account }}" class="fa fa-stack-1x text-primary img-circle"/>
                               {% else %}
@@ -276,7 +278,8 @@
                       <i class="fa fa-circle fa-stack-2x"></i>
 
                       {% if image_mentor != ""  %}
-                      <img src="{{ image_mentor }}_c.jpg" class="fa fa-stack-1x text-primary img-circle"  onmouseover="this.src='{{ image_mentor }}_g.jpg'" onmouseout="this.src='{{ image_mentor }}_c.jpg'"/>
+                      <!--<img src="{{ image_mentor }}_c.jpg" class="fa fa-stack-1x text-primary img-circle"  onmouseover="this.src='{{ image_mentor }}_g.jpg'" onmouseout="this.src='{{ image_mentor }}_c.jpg'"/>-->
+                      <img src="{{ image_mentor }}_c.jpg" onerror="this.src='img/ponentes/comodin_v.jpg'" class="fa fa-stack-1x text-primary img-circle"/>
                       {% elsif twitter_mentor != "" %}
                       <img src="https://avatars.io/twitter/{{ mentor.twitter_account }}" class="fa fa-stack-1x text-primary img-circle"/>
                       {% else %}
@@ -327,7 +330,7 @@
                               <i class="fa fa-circle fa-stack-2x"></i>
 
                               {% if image_mentor != ""  %}
-                              <img src="{{ image_mentor }}_c.jpg" class="fa fa-stack-1x text-primary img-circle"/>
+                              <img src="{{ image_mentor }}_c.jpg" onerror="this.src='img/ponentes/comodin_v.jpg'" class="fa fa-stack-1x text-primary img-circle"/>
                               {% elsif twitter_mentor != "" %}
                               <img src="https://avatars.io/twitter/{{ mentor.twitter_account }}" class="fa fa-stack-1x text-primary img-circle"/>
                               {% else %}
