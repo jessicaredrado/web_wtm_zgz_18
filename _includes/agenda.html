@@ -201,7 +201,11 @@
                       {% else %}
 
                     <td rowspan="{{ workshop_track_1.duration }}">
-                    <a href="#" data-toggle="modal" data-target="#workshop-1-{{ forloop.index0 }}">{{ workshop_track_1.name }}</a>
+                    <a href="#" data-toggle="modal" data-target="#workshop-1-{{ forloop.index0 }}">
+                      {{ workshop_track_1.name }}
+                    <hr class="small" style="margin-top: 5px;margin-bottom: 5px;border-top: 1px solid #d2d2d2;"/>
+                    <font style="font-size: 13px;">{{ workshop_track_1.speaker }}</font>
+                    </a>
                     <div class="modal fade" id="workshop-1-{{ forloop.index0 }}" role="dialog">
                         <div class="modal-dialog">
 
@@ -243,7 +247,11 @@
                         {% else %}
 
                       <td rowspan="{{ workshop_track_2.duration }}">
-                      <a href="#" data-toggle="modal" data-target="#workshop-2-{{ forloop.index0 }}">{{ workshop_track_2.name }}</a>
+                      <a href="#" data-toggle="modal" data-target="#workshop-2-{{ forloop.index0 }}">
+                        {{ workshop_track_2.name }}
+                        <hr class="small" style="margin-top: 5px;margin-bottom: 5px;border-top: 1px solid #d2d2d2;"/>
+                        <font style="font-size: 13px;">{{ workshop_track_2.speaker }}</font>
+                      </a>
                       <div class="modal fade" id="workshop-2-{{ forloop.index0 }}" role="dialog">
                           <div class="modal-dialog">
 
@@ -288,4 +296,18 @@
 
 </div>
 <!-- /.container -->
+ <div class="container">
+
+    <div class="row text-center">
+      <div class="col-lg-12">
+        <p class="lead">Y además disfruta de la batalla de RobotsGlobo que organiza Academia de Inventores. <br/>¿Conseguirás explotarlos todos? <br/></p>
+      </div>
+      <div class="col-lg-6 col-lg-offset-3">
+        <img class="img-responsive" src="img/batalla_robots/batalla_robots.jpg" alt="">
+      </div>
+      <div class="col-lg-12">
+        <p><br/>Apto para todos los públicos.</p>
+      </div>
+    </div>
+  </div>
 </section>

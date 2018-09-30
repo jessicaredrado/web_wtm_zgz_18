@@ -153,12 +153,6 @@ speakers:
     image_card: img/ponentes/fichas/MariaBerenguer
     twitter_account: merybere
     linkedin_account:
-  - name: Vanessa Cazzola, Begoña Cuello y Elena Montañes
-    bio: 'Vanessa Cazzola<br/>Me llamo Vanessa y soy traductora freelance. Traduzco del español al italiano y del inglés al italiano y estoy especializada en moda, turismo, marketing y sistemas ERP. Además de traductora, a lo largo de mi carrera profesional me he ocupado también de comercio exterior y de atención al cliente, y he trabajado en tres países distintos: España, Italia e Inglaterra.<br/><br/>Begoña Cuello<br/>Informática de profesión y con 9 años de experiencia en el desarrollo de software en las tecnologías de Microsoft, especializada en los entornos web. Suelo mantenerme al día en las tecnologías, siempre y cuando el tiempo y el trabajo me lo permite. Recientemente adherida al negocio de la banca y los seguros.<br/><br/>Elena Montañés<br/>Extrovertida y perfeccionista, en definitiva, soy una mente inquieta. Todo eso me ha llevado a trabajar en diferentes empresas punteras de Aragón. Con más de 10 años de experiencia en el sector, sigo siendo una apasionada del mundo digital y la tecnología en general. En la actualidad, sigo desarrollándome profesionalmente al frente de proyectos en Flat101 como Digital Project Manager.'
-    image: img/ponentes/VanessaCazzolaBegoñaCuelloElenaMontanes
-    image_card: img/ponentes/fichas/VanessaCazzolaBegoñaCuelloElenaMontanes
-    twitter_account: 
-    linkedin_account:
   - name: Sandra Escudero Sanchez
     bio: 'Soy Sandra Escudero, Ingeniera Informática por la Universidad de Zaragoza. Llevo 3 años en keensoft UST Global trabajando en el desarrollo de software, y más específicamente en gestión de proyectos. El interés por la tecnología desde que era pequeña y el querer afrontar nuevos retos me llevó hasta este increíble mundo de la informática. Lo que más me gusta de mi carrera es la oportunidad de crecer cada día y de aprender cosas nuevas, y es que con ganas e ilusión somos capaces de desarrollar todo lo que tenemos en nuestra mente.'
     image: img/ponentes/SandraEscudero
@@ -261,28 +255,40 @@ speakers:
     image_card: img/ponentes/fichas/VeronicaRodriguez
     twitter_account: veronica_IamVR
     linkedin_account:
-  - name: África Sanjuán Duarte
-    bio: 'África Sanjuán Duarte, emprendedora y freelance. Especializada en museografía interactiva y también en diseño web y comunicación, apasionada por experimentar y crear mezclando el emprendimiento con diseño, creatividad, programación y electrónica. En 2013 fundó Crearium, un espacio multidisciplinar y colaborativo en Monzón; un espacio de coworking, arte y formación pionero en la provincia de Huesca, y en el que la tecnología y la creatividad tienen un peso importante en forma de talleres y campus para peques bajo el nombre de Crearium Kids.'
-    image: img/ponentes/AfricaSanjuan
-    image_card: img/ponentes/fichas/AfricaSanjuan
-    twitter_account: jhjk
-    linkedin_account: 
   - name: Sonsoles Valero
     bio: 'Cofounder y CLO en Botmyself, startup legaltech de desarrollo de chatbots personalizados. Abogada y formadora especializada en Derecho de Consumo y Atención al Cliente. Firme creyente de equipos mixtos  “letras y ciencias” para proyectos tecnológicos. Ayuda a que la inteligencia artificial que se utiliza en la creación de chatbots sea entrenada con la calidad, la ética y la legalidad necesarias.'
     image: img/ponentes/SonsolesValero
     image_card: img/ponentes/fichas/SonsolesValero
     twitter_account: sonvalero
     linkedin_account:
+  - name: Academia de Inventores
+    bio: 'Hasta llegar a ser inventor primero hay que pasar un camino de exploración, descubrimiento, investigación y creación. Academia de inventores nace en colaboración con Edelvives como un espacio donde los niños puedan desarrollar sus capacidades, descubrir nuevas tecnologías, experimentar y aprender haciendo.'
+    image: img/ponentes/AcademiaDeInventores
+    image_card: img/ponentes/fichas/AcademiaDeInventores
+    twitter_account: ainventores
+    linkedin_account: 
+  - name: Vanessa Cazzola, Begoña Cuello y Elena Montañes
+    bio: 'Vanessa Cazzola<br/>Me llamo Vanessa y soy traductora freelance. Traduzco del español al italiano y del inglés al italiano y estoy especializada en moda, turismo, marketing y sistemas ERP. Además de traductora, a lo largo de mi carrera profesional me he ocupado también de comercio exterior y de atención al cliente, y he trabajado en tres países distintos: España, Italia e Inglaterra.<br/><br/>Begoña Cuello<br/>Informática de profesión y con 9 años de experiencia en el desarrollo de software en las tecnologías de Microsoft, especializada en los entornos web. Suelo mantenerme al día en las tecnologías, siempre y cuando el tiempo y el trabajo me lo permite. Recientemente adherida al negocio de la banca y los seguros.<br/><br/>Elena Montañés<br/>Extrovertida y perfeccionista, en definitiva, soy una mente inquieta. Todo eso me ha llevado a trabajar en diferentes empresas punteras de Aragón. Con más de 10 años de experiencia en el sector, sigo siendo una apasionada del mundo digital y la tecnología en general. En la actualidad, sigo desarrollándome profesionalmente al frente de proyectos en Flat101 como Digital Project Manager.'
+    image: img/ponentes/VanessaCazzolaBegoñaCuelloElenaMontanes
+    image_card: img/ponentes/fichas/VanessaCazzolaBegoñaCuelloElenaMontanes
+    twitter_account: 
+    linkedin_account:
+  - name: África Sanjuán Duarte
+    bio: 'África Sanjuán Duarte, emprendedora y freelance. Especializada en museografía interactiva y también en diseño web y comunicación, apasionada por experimentar y crear mezclando el emprendimiento con diseño, creatividad, programación y electrónica. En 2013 fundó Crearium, un espacio multidisciplinar y colaborativo en Monzón; un espacio de coworking, arte y formación pionero en la provincia de Huesca, y en el que la tecnología y la creatividad tienen un peso importante en forma de talleres y campus para peques bajo el nombre de Crearium Kids.'
+    image: img/ponentes/AfricaSanjuan
+    image_card: img/ponentes/fichas/AfricaSanjuan
+    twitter_account: jhjk
+    linkedin_account: 
 
 #List for mentors
 mentors:
   - name: María Jesus Fernández Ruiz
-    bio: 'María Jesús Fernández Ruiz es Jefa de la Oficina de Participación, Transparencia y Gobierno Abierto. Desde su inicio en 1994 se ocupa del desarrollo, dirección y gestión de la Sede Electrónica del Ayuntamiento de Zaragoza y desde 2012 es la responsable de la Plataforma de Gobierno Abierto y de las iniciativas relacionadas con Open Data en el Ayuntamiento de Zaragoza.  <br/>También es responsable de la gestión del Portal Corporativo, así como de la gestión de la información necesaria para dar una respuesta clara y concreta a las demandas que llegan del ciudadano a través del servicio 010. Actualmente también participa de manera activa en la “Comisión Técnica para la Implantación de la Administración Electrónica” en el Excmo Ayuntamiento de Zaragoza. <br/>Ejerce como ponente y formadora y ha participado en diferentes proyectos nacionales y europeos. A lo largo de su carrera ha recibido numerosos reconocimientos por su labor'
+    bio: 'María Jesús Fernández Ruiz es Jefa de la Oficina de Participación, Transparencia y Gobierno Abierto. Desde su inicio en 1994 se ocupa del desarrollo, dirección y gestión de la Sede Electrónica del Ayuntamiento de Zaragoza y desde 2012 es la responsable de la Plataforma de Gobierno Abierto y de las iniciativas relacionadas con Open Data en el Ayuntamiento de Zaragoza.  <br/>También es responsable de la gestión del Portal Corporativo, así como de la gestión de la información necesaria para dar una respuesta clara y concreta a las demandas que llegan del ciudadano a través del servicio 010. Actualmente también participa de manera activa en la “Comisión Técnica para la Implantación de la Administración Electrónica” en el Excmo Ayuntamiento de Zaragoza. <br/>Ejerce como ponente y formadora y ha participado en diferentes proyectos nacionales y europeos. A lo largo de su carrera ha recibido numerosos reconocimientos por su labor.'
     image: img/ponentes/MariaJesusFernandez
     twitter_account: 
     linkedin_account:
   - name: Diana Ruiz
-    bio: 'Desde que de adolescente sufriera un derrame cerebral tuvo claro que quería dedicarse a mejorar la calidad de la vida diaria de cualquier tipo de pacientes. Diana Ruiz es ahora doctora en robótica y se ha dedicado a explorar la relación entre el cerebro y coordinación motora con las señales biológicas del cuerpo humano para aplicaciones de sistemas exoesqueléticos y neuroprotésicos.<br/>Ha completado su formación con estancias de investigación en universidades internacionales. Ha estado inmersa en proyectos en el área de neurorehabilitación, lo que le ha permitido trabajar activamente en equipos multidisciplinares y colaborar con Hospitales de referencia.<br/>Actualmente, Diana es COO en Exovite, donde ha encontrado en un lugar donde compatibilizar la investigación en señales biomédicas con su otra gran pasión, la de ser madre.'
+    bio: 'Desde que de adolescente sufriera un derrame cerebral tuvo claro que quería dedicarse a mejorar la calidad de la vida diaria de cualquier tipo de pacientes. Diana Ruiz es ahora doctora en robótica y se ha dedicado a explorar la relación entre el cerebro y coordinación motora con las señales biológicas del cuerpo humano para aplicaciones de sistemas exoesqueléticos y neuroprotésicos.<br/>Ha completado su formación con estancias de investigación en universidades internacionales. Ha estado inmersa en proyectos en el área de neurorehabilitación, lo que le ha permitido trabajar activamente en equipos multidisciplinares y colaborar con Hospitales de referencia.<br/>Actualmente, Diana es COO en Exovite, donde ha encontrado un lugar donde compatibilizar la investigación en señales biomédicas con su otra gran pasión, la de ser madre.'
     image: img/ponentes/DianaRuiz
     twitter_account: 
     linkedin_account:
@@ -334,11 +340,11 @@ sponsors_platinum:
     image: img/patrocinadores/platinum/autentia.png
     web: https://www.autentia.com/
     twitter: autentia  
-  - name: Walgreens Boots Alliance
-    text: 
-    image: img/patrocinadores/platinum/walgreens_boots_alliance.jpg
-    web: http://www.walgreensbootsalliance.com/
-    twitter: 
+  #- name: Walgreens Boots Alliance
+  #  text: 
+  #  image: img/patrocinadores/platinum/walgreens_boots_alliance.jpg
+  #  web: http://www.walgreensbootsalliance.com/
+  #  twitter: 
 
 sponsors_gold:
   #- name: Google
@@ -346,31 +352,6 @@ sponsors_gold:
   #  image: img/patrocinadores/platinum/google.png
   #  web: https://www.google.es/
   #  twitter: GoogleES
-  #- name: Hiberus Tecnologia
-  #  text: 
-  #  image: img/patrocinadores/gold/hiberus.png
-  #  web: https://www.hiberus.com/hiberus-tecnologia
-  #  twitter: hiberus
-  #- name: Polux Solutions
-  #  text: 
-  #  image: img/patrocinadores/gold/polux.jpg
-  #  web: http://www.polux-solutions.com/Index.aspx
-  #  twitter: Polux_Solutions
-  #- name: Mujeres Tech
-  #  text: 
-  #  image: img/patrocinadores/gold/mujeres_tech.png
-  #  web: https://mujerestech.com/
-  #  twitter: MujeresTech
-  #- name: Cuéntica
-  #  text: 
-  #  image: img/patrocinadores/gold/cuentica.png
-  #  web: https://cuentica.com/
-  #  twitter: cuentica
-  #- name: Plain Concepts
-  #  text: 
-  #  image: img/patrocinadores/gold/plain_concepts.png
-  #  web: https://www.plainconcepts.com/
-  #  twitter: plainconcepts
 
 sponsors_silver:
   - name: GeoSLab
@@ -402,7 +383,12 @@ sponsors_silver:
     text: 
     image: img/patrocinadores/silver/keensoft.png
     web: http://www.keensoft.es/
-    twitter: keensoft_es
+    twitter: keensoft_es    
+  - name: T3chFest
+    text: 
+    image: img/patrocinadores/silver/t3chfest.png
+    web: https://t3chfest.uc3m.es/2019/?lang=es
+    twitter: t3chfest
     
 
 sponsors_others:
@@ -436,6 +422,12 @@ sponsors_others:
     image: img/patrocinadores/colaboradores/agile_spain.png
     web: https://agile-spain.org/
     twitter: agilespain
+  - name: San Jimes Estudio
+    text: 
+    image: img/patrocinadores/colaboradores/san_jimes.png
+    web: http://www.sanjimes.com/
+    instagram: sanjimes
+    facebook: sanjimes
 
 # Agenda
 talks_track_1:
@@ -768,7 +760,7 @@ workshops_track_1:
     track: workshop
     name: 'Taller Iniciación a la Programación'
     descrip: 'Duracion: 1h 30m<br/>Plazas disponibles: 14 <br/>Entre 5 y 12 años <br/><br/>'
-    speaker: '-'
+    speaker: 'Vanessa Cazzola, Begoña Cuello y Elena Montañes'
     duration: 1
     bio_speaker: 
     twitter_speaker: 
@@ -891,7 +883,7 @@ workshops_track_2:
     track: workshop
     name: 'Taller de libretas para ideas brillantes'
     descrip: 'Duracion: 1h 30m<br/>Plazas disponibles: 14 <br/>A partir de 8 años <br/><br/>Conocemos las diferentes formas tradicionales de encuadernación ¡y fabricamos nuestra propia libreta de ideas! La decoramos y luego aprendemos cómo funciona un circuito básico para aplicarlo en ella de forma creativa, integrándolo en el diseño. Le ponemos una luz, una pila, y un circuito con tinta conductora para que cuando la cerremos, ¡nuestras ideas brillen de verdad! Una libreta 100% handmade que nos servirá para guardar en ella nuestras ideas más brillantes.'
-    speaker: 'Crearium'
+    speaker: 'África Sanjuán Duarte'
     duration: 1
     bio_speaker: 
     twitter_speaker: 
